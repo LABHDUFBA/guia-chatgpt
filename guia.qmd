@@ -1,0 +1,147 @@
+---
+title: "Guia de Boas Práticas de Uso do ChatGPT"
+author:
+  - name: "Eric Brasil"
+    email: "profericbrasil@unilab.edu.br"
+    affiliation: "Laboratório de Humanidades Digitais – UFBA"
+date: "2025-06-05"
+description: "Guia de Boas Práticas para uso responsável e organizado da conta de ChatGPT do Laboratório de Humanidades Digitais da UFBA"
+lang: "pt-BR"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## 1. Introdução
+
+Este guia reúne orientações para uso organizado e seguro da conta de ChatGPT do Laboratório de Humanidades Digitais da UFBA, focando em eficiência, proteção de dados e controle de custos.
+
+::: {.callout-note}
+As credenciais para acesso serão enviadas individualmente pelo Telegram.
+:::
+
+---
+
+## 2. Objetivos do Guia
+
+* Apresentar dicas de construção de prompts.  
+* Estabelecer padrão de nomeação de chats.  
+* Alertar sobre cuidados com dados sensíveis.  
+* Recomendar práticas para evitar uso excessivo.
+
+---
+
+## 3. Dicas Gerais de Uso
+
+1. **Clareza nos prompts**  
+   - Explique contexto, tarefa e formato desejado.  
+   - Seja específico para diminuir iterações.
+
+2. **Agrupar assuntos ou criar projetos**  
+   - Mantenha temas relacionados num mesmo chat ou projeto (ver seção 5).
+
+3. **Fornecer exemplos de entrada**  
+   - Apresente modelos ou trechos de texto para guiar a resposta.
+
+4. **Revisar antes de reutilizar**  
+   - Verifique citações e dados gerados para confirmar precisão.
+
+5. **Limitar extensão de respostas**  
+   - Peça “resposta concisa (até X linhas)” ou defina número de palavras.
+
+::: {.callout-tip title="Chats Temporários"}
+Use chats temporários para testes rápidos sem salvar histórico. Este ambiente não é seguro para dados sigilosos, pois as informações podem ser armazenadas pelo ChatGPT.
+:::
+
+---
+
+## 4. Padrões de Nomeação de Chats
+
+Use o formato abaixo no início de cada chat:
+
+```
+[<CÓDIGO>-<Nome>] <Descrição resumida>
+```
+
+### \<CÓDIGO>
+
+Identifica o cargo ou vínculo. 
+
+| Código   | Descrição             |
+| -------- | --------------------- |
+| `P`      | Professor/ Pesquisador|
+| `PIBIC`  | bolsista PIBIC        |
+| `M`      | mestrando             |
+| `D`      | doutorando            |
+| `PD`     | pós-doutorando        |
+
+### Exemplos: 
+  * `P-Eric Brasil`: docente (professor)  
+  * `PIBIC-Fulano`: bolsista PIBIC  
+  * `M-Fulano`: mestrando  
+  * `D-Fulano`: doutorando  
+  * `PD-Fulano`: pós-doutorando
+
+### \<Descrição resumida>
+
+Em poucas palavras, informe o tema. Exemplos:  
+  * `[PD-Raíssa] Resumo Artigo CNPq`  
+  * `[PIBIC-Jaime] Revisão Plano de Trabalho`  
+  * `[M-Leonardo] Checklist Publicação DH2026`
+
+---
+
+## 5. Projetos no ChatGPT
+
+Projetos servem para agrupar conversas relacionadas a um mesmo tema:
+
+* **Organização**: cada projeto é como uma pasta virtual para vários chats (ex.: “Proposta CNPq 2026”).  
+* **Colaboração**: convide membros para acessar o mesmo projeto e evitar duplicação de tópicos.  
+* **Histórico**: mantém todo o contexto reunido, facilitando a retomada de trabalhos.
+
+---
+
+## 6. Cuidados com os Dados
+
+* Não insira dados pessoais sensíveis (CPFs, endereços, e-mails privados).  
+* Siga a LGPD: trate informações de alunos ou participantes de pesquisa de forma anônima.  
+* A opção de enviar dados para treinar novos modelos já está desmarcada; as conversas não alimentam futuros treinamentos.  
+* Evite colar chaves, tokens ou senhas em prompts.  
+* Ao salvar ou exportar chats, revise para garantir que não há informações confidenciais expostas.
+
+---
+
+## 7. Cuidados com Uso Excessivo
+
+* **Priorize tarefas**: só recorra ao ChatGPT para demandas que realmente precisem de IA.  
+* **Divida consultas grandes**: fracionar em subtarefas reduz custo de tokens.  
+* **Monitore frequência**: agrupe demandas ou aguarde blocos de tarefas para evitar abrir muitos chats diários.
+
+---
+
+## 8. Padrões de Etiqueta e Responsabilidade
+
+* **Identifique-se no primeiro prompt**: informe seu nome ou sigla e objetivo (ex.: “[PIBIC-Jaime] 05/06/2025 – Revisar proposta”).  
+* **Evite frases vagas**: “Me ajude nisso” gera iterações desnecessárias; forneça contexto e objetivos claros.  
+* **Use privacidade quando preciso**: se for conteúdo sensível, peça “Esta sessão é apenas para minha referência; não divulgar”.  
+* **Valide o conteúdo gerado**: cada usuário é responsável por revisar e conferir fontes e dados antes de compartilhar.
+
+---
+
+## 9. Considerações Finais
+
+* **Feedback coletivo**: envie sugestões no GitHub marcando `@ericbrasiln` ou `@suporte-github`.  
+* **Compromisso ético**: respeite ética acadêmica, privacidade de dados e boas práticas de consumo de recursos.
+
+---
+
+**Adoção dessas diretrizes garantirá**:
+
+1. Organização das conversas por código, data e tema.  
+2. Privacidade reforçada (sem enviar dados para treinamento e uso adequado de projetos).  
+3. Segurança de dados sensíveis e conformidade com a LGPD.  
+4. Eficiência no uso de tokens, reduzindo custos.  
+5. Transparência entre docentes e bolsistas sobre as demandas atendidas.
+
+*Boa utilização a todos!*  
